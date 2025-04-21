@@ -1,0 +1,255 @@
+local hkbLbWscRa7b7jogdSlb = Instance.new("ScreenGui")
+hkbLbWscRa7b7jogdSlb.Name = "HkbLbWscRa7b7jogdSlb"
+hkbLbWscRa7b7jogdSlb.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local bg = Instance.new("Frame")
+bg.Name = "bg"
+bg.BackgroundColor3 = Color3.fromRGB(175, 175, 175)
+bg.BorderColor3 = Color3.fromRGB(10, 10, 10)
+bg.BorderSizePixel = 2
+bg.Position = UDim2.fromScale(0.0762, 0.12)
+bg.Size = UDim2.fromOffset(721, 631)
+
+local bg1 = Instance.new("Frame")
+bg1.Name = "bg"
+bg1.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+bg1.BorderColor3 = Color3.fromRGB(35, 35, 35)
+bg1.Size = UDim2.fromScale(1, 1)
+
+local bg2 = Instance.new("Frame")
+bg2.Name = "bg"
+bg2.BackgroundColor3 = Color3.fromRGB(175, 175, 175)
+bg2.BorderColor3 = Color3.fromRGB(35, 35, 35)
+bg2.BorderSizePixel = 2
+bg2.Position = UDim2.new(0, 7, 0.002, 21)
+bg2.Size = UDim2.fromOffset(707, 602)
+
+local bg3 = Instance.new("Frame")
+bg3.Name = "bg"
+bg3.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+bg3.BorderColor3 = Color3.fromRGB(10, 10, 10)
+bg3.Size = UDim2.fromScale(1, 1)
+
+local main = Instance.new("Frame")
+main.Name = "main"
+main.BackgroundColor3 = Color3.fromRGB(175, 175, 175)
+main.BorderColor3 = Color3.fromRGB(10, 10, 10)
+main.BorderSizePixel = 2
+main.Position = UDim2.new(0, 7, 0.023, 15)
+main.Size = UDim2.fromOffset(693, 566)
+
+local group = Instance.new("Frame")
+group.Name = "group"
+group.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+group.BorderColor3 = Color3.fromRGB(35, 35, 35)
+group.Size = UDim2.fromScale(1, 1)
+
+local tab = Instance.new("Frame")
+tab.Name = "tab"
+tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tab.BackgroundTransparency = 1
+tab.BorderColor3 = Color3.fromRGB(27, 42, 53)
+tab.Size = UDim2.fromScale(1, 1)
+
+local center = Instance.new("ScrollingFrame")
+center.Name = "center"
+center.Active = true
+center.AutomaticCanvasSize = Enum.AutomaticSize.Y
+center.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+center.BackgroundTransparency = 1
+center.BorderColor3 = Color3.fromRGB(27, 42, 53)
+center.BorderSizePixel = 0
+center.CanvasSize = UDim2.new()
+center.Position = UDim2.fromOffset(231, 0)
+center.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+center.ScrollBarThickness = 0
+center.Size = UDim2.new(0, 231, 1, 0)
+
+local uIListLayout = Instance.new("UIListLayout")
+uIListLayout.Name = "UIListLayout"
+uIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+uIListLayout.Padding = UDim.new(0, 11)
+uIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+uIListLayout.Parent = center
+
+local uIPadding = Instance.new("UIPadding")
+uIPadding.Name = "UIPadding"
+uIPadding.PaddingBottom = UDim.new(0, 9)
+uIPadding.PaddingTop = UDim.new(0, 13)
+uIPadding.Parent = center
+
+center.Parent = tab
+
+local right = Instance.new("ScrollingFrame")
+right.Name = "right"
+right.Active = true
+right.AutomaticCanvasSize = Enum.AutomaticSize.Y
+right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+right.BackgroundTransparency = 1
+right.BorderColor3 = Color3.fromRGB(27, 42, 53)
+right.BorderSizePixel = 0
+right.CanvasSize = UDim2.new()
+right.Position = UDim2.fromOffset(462, 0)
+right.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+right.ScrollBarThickness = 0
+right.Size = UDim2.new(0, 231, 1, 0)
+
+local uIListLayout1 = Instance.new("UIListLayout")
+uIListLayout1.Name = "UIListLayout"
+uIListLayout1.HorizontalAlignment = Enum.HorizontalAlignment.Center
+uIListLayout1.Padding = UDim.new(0, 11)
+uIListLayout1.SortOrder = Enum.SortOrder.LayoutOrder
+uIListLayout1.Parent = right
+
+local uIPadding1 = Instance.new("UIPadding")
+uIPadding1.Name = "UIPadding"
+uIPadding1.PaddingBottom = UDim.new(0, 9)
+uIPadding1.PaddingTop = UDim.new(0, 13)
+uIPadding1.Parent = right
+
+right.Parent = tab
+
+local left = Instance.new("ScrollingFrame")
+left.Name = "left"
+left.Active = true
+left.AutomaticCanvasSize = Enum.AutomaticSize.XY
+left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+left.BackgroundTransparency = 1
+left.BorderColor3 = Color3.fromRGB(27, 42, 53)
+left.BorderSizePixel = 0
+left.CanvasSize = UDim2.new()
+left.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+left.ScrollBarThickness = 0
+left.ScrollingDirection = Enum.ScrollingDirection.Y
+left.Size = UDim2.new(0, 231, 1, 0)
+
+local uIListLayout2 = Instance.new("UIListLayout")
+uIListLayout2.Name = "UIListLayout"
+uIListLayout2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+uIListLayout2.Padding = UDim.new(0, 11)
+uIListLayout2.SortOrder = Enum.SortOrder.LayoutOrder
+uIListLayout2.Parent = left
+
+local uIPadding2 = Instance.new("UIPadding")
+uIPadding2.Name = "UIPadding"
+uIPadding2.PaddingBottom = UDim.new(0, 9)
+uIPadding2.PaddingTop = UDim.new(0, 13)
+uIPadding2.Parent = left
+
+left.Parent = tab
+
+tab.Parent = group
+
+group.Parent = main
+
+local topGradient = Instance.new("ImageLabel")
+topGradient.Name = "top_gradient"
+topGradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+topGradient.BackgroundTransparency = 1
+topGradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+topGradient.Image = "http://www.roblox.com/asset/?id=4507849253"
+topGradient.ImageColor3 = Color3.fromRGB(17, 17, 17)
+topGradient.ImageContent = Content.new(Content)
+topGradient.Size = UDim2.new(1, 0, 0, 11)
+topGradient.Parent = main
+
+local bottomGradient = Instance.new("ImageLabel")
+bottomGradient.Name = "bottom_gradient"
+bottomGradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bottomGradient.BackgroundTransparency = 1
+bottomGradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+bottomGradient.Image = "http://www.roblox.com/asset/?id=4507849253"
+bottomGradient.ImageColor3 = Color3.fromRGB(17, 17, 17)
+bottomGradient.ImageContent = Content.new(Content)
+bottomGradient.Position = UDim2.new(0, 1, 1, -12)
+bottomGradient.Rotation = 180
+bottomGradient.Size = UDim2.new(1, 0, 0, 12)
+bottomGradient.Parent = main
+
+main.Parent = bg3
+
+local tabbuttons = Instance.new("Frame")
+tabbuttons.Name = "tabbuttons"
+tabbuttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tabbuttons.BackgroundTransparency = 1
+tabbuttons.BorderColor3 = Color3.fromRGB(27, 42, 53)
+tabbuttons.BorderSizePixel = 0
+tabbuttons.Position = UDim2.fromOffset(7, 5)
+tabbuttons.Size = UDim2.fromOffset(693, 22)
+tabbuttons.ZIndex = 0
+
+local uIListLayout3 = Instance.new("UIListLayout")
+uIListLayout3.Name = "UIListLayout"
+uIListLayout3.FillDirection = Enum.FillDirection.Horizontal
+uIListLayout3.SortOrder = Enum.SortOrder.LayoutOrder
+uIListLayout3.Parent = tabbuttons
+
+local button = Instance.new("TextButton")
+button.Name = "button"
+button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+button.BackgroundTransparency = 1
+button.BorderColor3 = Color3.fromRGB(27, 42, 53)
+button.BorderSizePixel = 0
+button.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json")
+button.Modal = true
+button.Size = UDim2.new(0.143, 0, 0, 22)
+button.Text = ""
+button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextSize = 13
+button.TextStrokeTransparency = 0
+button.Visible = false
+button.ZIndex = 0
+
+local text = Instance.new("TextLabel")
+text.Name = "text"
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1
+text.BorderColor3 = Color3.fromRGB(27, 42, 53)
+text.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json")
+text.Size = UDim2.fromScale(1.02, 1)
+text.Text = "Main"
+text.TextColor3 = Color3.fromRGB(144, 144, 144)
+text.TextSize = 14
+text.TextStrokeTransparency = 0
+text.ZIndex = 2
+text.Parent = button
+
+local element = Instance.new("Frame")
+element.Name = "element"
+element.BackgroundColor3 = Color3.fromRGB(240, 142, 214)
+element.BackgroundTransparency = 1
+element.BorderColor3 = Color3.fromRGB(27, 42, 53)
+element.BorderSizePixel = 0
+element.Position = UDim2.new(0, 0, 1, -2)
+element.Size = UDim2.new(1.02, 0, 0, 1)
+element.ZIndex = 0
+element.Parent = button
+
+button.Parent = tabbuttons
+
+tabbuttons.Parent = bg3
+
+bg3.Parent = bg2
+
+bg2.Parent = bg1
+
+bg1.Parent = bg
+
+local pre = Instance.new("TextLabel")
+pre.Name = "pre"
+pre.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pre.BackgroundTransparency = 1
+pre.BorderColor3 = Color3.fromRGB(27, 42, 53)
+pre.BorderMode = Enum.BorderMode.Middle
+pre.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json")
+pre.Position = UDim2.fromOffset(7, 5)
+pre.RichText = true
+pre.Size = UDim2.fromOffset(717, 11)
+pre.Text = ""
+pre.TextColor3 = Color3.fromRGB(255, 255, 255)
+pre.TextSize = 13
+pre.TextStrokeTransparency = 0
+pre.TextXAlignment = Enum.TextXAlignment.Left
+pre.Parent = bg
+
+bg.Parent = hkbLbWscRa7b7jogdSlb
